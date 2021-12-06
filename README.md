@@ -52,3 +52,16 @@ Begin met het maken van wijzigingen in `src/App.js`: elke keer als je een bestan
    * Een `h2`-element voor de titel en `p`-elementen voor de paragrafen (als er _wel_ tekst in staat)
 2. Maak nu een custom `Tile`-component die alle benodigde data kan ontvangen. Als er een afbeelding wordt meegegeven gedraagd hij zich als een foto-tegel, maar zonder afbeelding is het
    een tekst-tegel. Houd er rekening mee dat je van tevoren ook niet weet hoeveel losse paragrafen er in een `Tile` komen te staan.
+
+
+#Aanpak componenten maken
+
+1. 'components'-map aanmaken
+2. Bestandje maken met de naam van jouw component ('Testimonial.js')
+3. Functie schrijven (mét hoofdletter) die een HTML-element returned
+4. Exporteer de functie (component) uit het bestand
+5. Importeer de functie (component) in App.js en gebruik hem als: `<Component />`
+6. Plak je originele HTML in jouw custom component. Welke data heeft jouw component nodig?
+7. Bedenk property-namen en geef informatie door aan het component vanaf 'App.js'
+8. Ontvang het props-object als parameter
+9. Vervang de statische tekst door dynamische waardes uit het props-object`
